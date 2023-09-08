@@ -255,15 +255,9 @@ ul {
 
 /* ============= PROJECT CSS =============== */
 
-/* optional overwrite */
-
 body {
-  background: var(--primary-100);
+  background-color: var(--primary-100);
 }
-
-/* * {
-  border: 2px solid red;
-} */
 
 main {
   min-height: 100vh;
@@ -272,11 +266,10 @@ main {
   align-items: center;
 }
 .container {
-  /* border: 2px solid red; */
-  width: 90vw;
+  width: 90vh;
   max-width: var(--fixed-width);
   margin: 5rem 0;
-  background: var(--white);
+  background-color: var(--white);
   border-radius: var(--borderRadius);
   padding: 1.5rem 2rem;
   box-shadow: var(--shadow-1);
@@ -284,6 +277,7 @@ main {
 .container h3 {
   margin-bottom: 2rem;
 }
+
 .person {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -291,16 +285,19 @@ main {
   margin-bottom: 1.5rem;
   align-items: center;
 }
+
 .person img {
-  width: 75px;
   height: 75px;
+  width: 75px;
   border-radius: 50%;
   box-shadow: var(--shadow-3);
 }
-.person h4 {
+
+.person h5 {
   font-weight: 500;
   margin-bottom: 0.5rem;
 }
+
 .person p {
   color: var(--grey-500);
 }
